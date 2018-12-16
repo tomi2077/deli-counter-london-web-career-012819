@@ -9,7 +9,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli,string)
-  katz_deli.push%w(string)
+  katz_deli.push(string)
   katz_deli.each_with_index { |i, index| puts "Welcome, #{i}. You are number #{index+1} in line." }
 end
 
