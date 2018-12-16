@@ -1,10 +1,10 @@
 def line(katz_deli)
-  line_position = []
+  customer_pos = []
   if katz_deli.empty?
     puts "The line is currently empty."
   else
-    katz_deli.each_with_index { |i, index| line_position << "#{index+1}. #{i}" }
-    puts "The line is currently: #{line_position.join(" ")}"
+    katz_deli.each_with_index { |i, index| customer_pos << "#{index+1}. #{i}" }
+    puts "The line is currently: #{customer_pos.join(" ")}"
   end
 end
 
