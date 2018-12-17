@@ -10,7 +10,9 @@ end
 
 def take_a_number(katz_deli,string)
   katz_deli.push(string)
-  puts "Welcome, #{i}. You are number #{katz_deli.length} in line."
+  while i < katz_deli.length
+    puts "Welcome, #{i}. You are number #{katz_deli.length} in line."
+    i += 1
 end
 
 
