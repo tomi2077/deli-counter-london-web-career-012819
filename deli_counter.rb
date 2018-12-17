@@ -14,7 +14,7 @@ def take_a_number(katz_deli,string)
 end
 
 def now_serving(katz_deli)
-  if katz_deli = []
+  if katz_deli.empty?
     puts "There is nobody waiting to be served!"
   else
     shift_person = katz_deli.shift
