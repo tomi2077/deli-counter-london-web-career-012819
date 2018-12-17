@@ -9,6 +9,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli,string)
+  counter = 0
   katz_deli.push(string)
   while i < katz_deli.count
     puts "Welcome, #{i}. You are number #{katz_deli.length} in line."
