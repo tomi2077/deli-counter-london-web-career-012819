@@ -10,7 +10,7 @@ end
 
 def take_a_number(katz_deli,string)
   katz_deli.push(string)
-  katz_deli.each { |i| puts "Welcome, #{i}. You are number #{katz_deli.length} in line." }
+  katz_deli.each { |i| puts "Welcome, #{i}. You are number #{katz_deli.size} in line." }
 end
 
 
