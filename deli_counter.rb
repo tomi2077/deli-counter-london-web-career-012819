@@ -9,12 +9,8 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli,string)
-  counter = 0
   katz_deli.push(string)
-  while counter < katz_deli.count
-    puts "Welcome, #{string}. You are number #{katz_deli.length} in line."
-    counter += 1
-  end
+  puts "Welcome, #{string}. You are number #{katz_deli.length} in line."
 end
 
 
