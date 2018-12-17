@@ -12,7 +12,7 @@ def take_a_number(katz_deli,string)
   counter = 0
   katz_deli.push(string)
   while counter < katz_deli.count
-    puts "Welcome, #{katz_deli[i]}. You are number #{katz_deli.length} in line."
+    puts "Welcome, #{string}. You are number #{katz_deli.length} in line."
     counter += 1
   end
 end
